@@ -30,7 +30,7 @@ const Hint = ({
         sideOffset={sideOffset}
         align={align}
         className={cn(
-          "bg-sidebar hover:bg-sidebar z-[500] border-[1px] px-2 py-1 shadow",
+          "z-[500] border-[1px] bg-sidebar px-2 py-1 shadow hover:bg-sidebar",
           className,
         )}
         alignOffset={alignOffset}

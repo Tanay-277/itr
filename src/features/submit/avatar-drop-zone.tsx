@@ -129,7 +129,7 @@ export const AvatarDropZone: React.FC<AvatarDropZoneProps> = ({
             <Button
               variant="outline"
               size="icon"
-              className="bg-sidebar absolute m-1 h-fit w-fit p-1 font-normal"
+              className="absolute m-1 h-fit w-fit bg-sidebar p-1 font-normal"
             >
               <input
                 type="file"
