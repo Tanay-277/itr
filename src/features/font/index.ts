@@ -19,8 +19,17 @@ const gilroy = localFont({
 });
 
 const inter = localFont({
-  src: "./fonts/inter.woff2",
-  variable: "--font-inter-sans",
+  src: [
+    {
+      path: "./fonts/InterVariable.woff2",
+      style: "normal",
+    },
+    {
+      path: "./fonts/InterVariable-Italic.woff2",
+      style: "italic",
+    },
+  ],
+  variable: "--font-inter",
   weight: "500",
 });
 

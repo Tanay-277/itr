@@ -1,5 +1,5 @@
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { geistSans } from "@/features/font";
+import { inter } from "@/features/font";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/providers/theme-provider";
 import type { Metadata } from "next";
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={cn("min-h-[100dvh] bg-background font-sans antialiased", geistSans.variable)}
+        className={cn("min-h-[100dvh] bg-background font-sans antialiased", inter.variable)}
       >
         <ThemeProvider
           attribute="class"
